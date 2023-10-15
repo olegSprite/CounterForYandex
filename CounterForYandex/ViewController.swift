@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     
     var counter: Int = 0
     
+    // Функция получения текущего времени
     func takeTime() -> String {
         let calendar = Calendar.current
         let date = Date()
